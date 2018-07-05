@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html {
+  background: url('https://dl.dropboxusercontent.com/u/6748088/site_images/background02.jpg'), no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 100px auto;
+  color: #333;
+}
+
+#textslide {
+	position:relative;
+	left:300px;
+}
+
+.heading {
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#041;
+	text-shadow:#333 0.1em 0.1em 0.1em;
+}
+
+a:link {
+	color:#041;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#061;
+	text-shadow:#333 0.1em 0.1em 0.3em;
+}
+
+a:visited {
+	color:#041;
+	text-shadow:#666 0.2em 0.2em 0.4em;
+	}
+	
+a:visited:hover {
+	color:#061;
+	text-shadow:#666 0.2em 0.2em 0.4em;
+	}
+
+
+.link1, .link2 {
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#041;
+	text-shadow:#333 0.1em 0.1em 0.1em;
+}
+
+.link1 {
+	position:relative;
+	top:0px;
+	margin-left:10px;
+	}
+.link2, .testtext {
+	position:relative;
+	top:-100px;
+	margin-left:210px;
+}
+
+.testtext {
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#041;
+	text-shadow:#333 0.1em 0.1em 0.1em;
+}
