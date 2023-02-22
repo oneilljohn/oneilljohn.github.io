@@ -1987,6 +1987,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		loading: lazy;
 	}
 
 		.image:before {
